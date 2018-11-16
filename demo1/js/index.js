@@ -65,3 +65,6 @@ wrapper.css('height',height-1);
 // 刷新滚动
 jroll.refresh();
 // jroll.on("scroll", updata);
+jroll.on("scroll", function () { 
+	console.log(this.y);
+})
