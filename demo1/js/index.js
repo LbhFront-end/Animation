@@ -68,3 +68,9 @@ jroll.refresh();
 jroll.on("scroll", function () { 
 	console.log(this.y);
 })
+jroll.on("scrollStart",function(){
+	console.log('滑动开始:'+this.y);
+});	
+jroll.on("scrollEnd",function(){
+	console.log('滑动结束:'+this.y);
+});
