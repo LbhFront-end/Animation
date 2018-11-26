@@ -196,6 +196,7 @@ jroll.on("scrollStart",function(){
 jroll.on("scrollEnd",function(){
 	end = this.y;
 	temp = time>0?time:0;
+	temp = time>0?time:0;
 	console.log('滑动结束:'+this.y);
 	console.log('temp结束时间:'+temp);
 	console.log('------------------');	
